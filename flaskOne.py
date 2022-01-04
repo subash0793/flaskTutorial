@@ -48,6 +48,7 @@ def show_post(post_id):
 def show_subpath(subpath):
     # show the subpath after /path/
     return f'Subpath {escape(subpath)}'
-
+def newtrythin():
+    return "just try"
 if __name__== '__main__':
     app.run(debug=True)
