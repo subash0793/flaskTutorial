@@ -44,10 +44,6 @@ def show_post(post_id):
     # show the post with the given id, the id is an integer
     return f'Post {post_id}'
 
-@app.route('/path/<path:subpath>')
-def show_subpath(subpath):
-    # show the subpath after /path/
-    return f'Subpath {escape(subpath)}'
 def newtrythin():
     return "just try"
 
